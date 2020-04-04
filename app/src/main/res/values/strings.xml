@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gorjetas</string>
+    <string name="lblValor">Valor: </string>
+    <string name="lblPercent">% Gorjeta: </string>
+    <string name="lblPerc15">15 %</string>
+    <string name="lblPercentCustom">18 %</string>
+    <string name="lblGorjeta">Gorjeta: </string>
+    <string name="lblTotal">Total: </string>
+</resources>

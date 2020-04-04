@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingTop="24dp"
+    android:paddingRight="24dp"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblValor" />
+
+        <EditText
+            android:id="@+id/EditText_valor"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPercent" />
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:progress="18" />
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="180dp"
+        android:paddingTop="24dp"
+        android:paddingRight="2dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPerc15" />
+
+        <TextView
+            android:id="@+id/TextView_Gorjeta"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lblPercentCustom" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp"
+        android:paddingTop="2dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:text="@string/lblGorjeta" />
+
+        <EditText
+            android:id="@+id/EditText_gorjeta15"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText_gorjetaCustom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="100dp"
+        android:paddingTop="2dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:text="@string/lblTotal" />
+
+        <EditText
+            android:id="@+id/EditText_Total15"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/EditText_TotalCustom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+
+</LinearLayout>
